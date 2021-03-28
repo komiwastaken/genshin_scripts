@@ -6,7 +6,7 @@ import mido
 import pynput.keyboard
 from typing import List
 
-MIDI_FILE_PATH = r"path to your midi file here"
+MIDI_FILE_PATH = r"https://github.com/3096/genshin_scripts.git"
 ROOT_NOTE = 48
 START_KEY_COMBO = [pynput.keyboard.Key.alt_l, pynput.keyboard.KeyCode.from_char('3')]
 STOP_KEY_COMBO = [pynput.keyboard.Key.space]
